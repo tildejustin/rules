@@ -12,16 +12,11 @@
   weight: "regular",
 )
 
-#set par(
-  leading: 0.75em,
-  spacing: 0.75em,
-)
-
-#show heading.where(level: 1): set block(above: 2.0em)
-#show heading.where(level: 1): set block(below: 2.0em)
+#show heading.where(level: 1): set block(above: 1.5em)
+#show heading.where(level: 1): set block(below: 1.5em)
 #show heading.where(level: 1): set text(size: 18pt)
-#show heading.where(level: 2): set block(above: 1.7em)
-#show heading.where(level: 2): set block(below: 0.7em)
+#show heading.where(level: 2): set block(above: 1em)
+#show heading.where(level: 2): set block(below: 1em)
 #show heading.where(level: 2): set text(size: 16pt)
 #show heading.where(level: 3): set text(size: 12pt)
 
@@ -115,101 +110,109 @@ Please refer to #formatLink("https://datatracker.ietf.org/doc/html/rfc2119")[RFC
   - X is subject to an amendment by Y; in this instance, rule Y expands upon the allowable actions of rule X.
   - X is nullified by Y; in this instance, rule Y nullifies rule X (as defined above).
 
-#set list(
-  marker: "",
-  indent: 30pt,
+#set enum(
+  numbering: "i.",
+  indent: 15pt
 )
 
 #pagebreak()
 
 = A: Universal Ruleset
 == A.1: General World and Game Creation
-A.1.1) An allowed launcher must be used.
-- This constitutes:
-- A.1.1.a) #formatLink("https://www.minecraft.net/en-us/download")[The official Minecraft launcher]
-- A.1.1.b) #formatLink("https://multimc.org/")[MultiMC]
-- A.1.1.c) #formatLink("https://prismlauncher.org/")[Prism Launcher]
-- A.1.1.d) #formatLink("https://modrinth.com/app")[Modrinth App]
-- A.1.1.e) #formatLink("https://atlauncher.com")[ATLauncher]
-- A.1.1.f) Guidance: If you want another launcher to be considered for legalization, please open a thread. Launchers are only allowed if they do not significantly modify the game.
-A.1.2) Runs must be performed on Minecraft 1.0 or later using an official release.
-- The versions this excludes are:
-- A.1.2.a) Beta releases
-- A.1.2.b) Alpha releases
-- A.1.2.c) Snapshots
-- A.1.2.d) April Fools' 'updates'
-- A.1.2.e) Release candidates
-- A.1.2.f) Pre-releases
-  - A.1.2.f.i) <A.1.2.f.i> Guidance: Versions 1.2, 1.3, 1.4, 1.4.1, 1.4.3, 1.5, 1.6, 1.6.3, 1.7, 1.7.1, and 1.7.3 are considered pre-releases and must not be used.
-  - #entangled[Entangled Rule(s):]
-  - #entangled[A.1.2.f.i is referenced by: ] #entangledRule("CE16.1.3")
-- A.1.2.g) Combat tests
+
+#set block(spacing: .6em)
+
+A.1.1) An allowed launcher must be used. This constitutes:
++ #formatLink("https://www.minecraft.net/en-us/download")[The official Minecraft launcher]
++ #formatLink("https://multimc.org/")[MultiMC]
++ #formatLink("https://prismlauncher.org/")[Prism Launcher]
++ #formatLink("https://modrinth.com/app")[Modrinth App]
++ #formatLink("https://atlauncher.com")[ATLauncher]
+If you want another launcher to be considered for legalization, please open a thread. Launchers are only allowed if they do not significantly modify the game.)
+
+A.1.2) <A.1.2> Runs must be performed on Minecraft 1.0 or later using an official release. This excludes:
++ Alpha and Beta releases
++ Snapshots
++ April Fools' 'updates'
++ Release candidates
++ Pre-releases\
+  Note that versions 1.2, 1.3, 1.4, 1.4.1, 1.4.3, 1.5, 1.6, 1.6.3, 1.7, 1.7.1, and 1.7.3 are pre-releases and must not be used.
++ Combat tests
+#entangled[A.1.2 is referenced by ] #entangledRule("CE16.1.3")
+
 A.1.3) <A.1.3> The default settings of world generation must be kept.
-- The only allowable settings that may be changed constitute:
-- A.1.3.a) Using the Survival or Hardcore world type.
-- A.1.3.b) <A.1.3.b> Using the Easy, Normal, or Hard difficulties. (1.16+)
-- #entangled[Entangled Rule(s):]
-- #entangled[A.1.3.b is subject to an amendment by: ] #entangledRule("8.1.2")
-- A.1.3.c) Changing the World Name.
-#entangled[Entangled Rule(s):]\
-#entangled[A.1.3 is subject to an amendment by: ] #entangledRules(("C.1.1", "F.1.2", "G.2.1", "7.1.3.c", "CE20.1.2"))\
-#entangled[A.1.3 is referenced by: ] #entangledRule("CE20.1.3.a")\
-A.1.4) The options.txt file must not be altered to circumvent the bounds to the settings set by the game.
-- A.1.4.a) If a settings value is not possible to achieve through adjusting the in-game sliders/buttons (such as non-interger FOVs), it must not be used. Any slider setting without game-enforced intervals (e.g. mouseSensitivity) may be set to any float value within its bounds.
-  - A.1.4.a.i) Exception: maxFps may be set to any integer value between 10 and 260 (Unlimited), inclusive.
-- A.1.4.b) Exception: gamma may be set to within the range of 0.0 to 5.0.
-  - A.1.4.b.i) Guidance: The Planifolia mod allows this option to take effect in 1.19+.
-- A.1.4.c) Exception: syncChunkWrites may be altered.
-- A.1.4.d) Exception: tutorialStep may be altered.
-A.1.5) The game's code and files must not be altered to produce any unfair advantage or significant deviation in gameplay.
-- A.1.5.a) Clarification: Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.
-  - A.1.5.a.i) Exception: The “Cobalt” elytra texture may be used.
-- A.1.5.b) Clarification: The name of hardware components, such as the CPU, must not be altered.
+The only settings that may be changed constitute:
++ Using the Survival or Hardcore world type.
++ Using the Easy, Normal, or Hard difficulties. (1.16+)
++ Changing the World Name.
+#entangled[A.1.3 is amended by ] #entangledRules(("8.1.2", "C.1.1", "F.1.2", "G.2.1", "7.1.3.c", "CE20.1.2"))
+#entangled[and referenced by ] #entangledRule("CE20.1.3.a")
+
+A.1.4) The options.txt file must not be altered to circumvent the bounds to the settings set by the game.\
+Exception: gamma may be set to within the range of 0.0 to 5.0. The Planifolia mod allows this option to take effect in 1.19+.\
+Exception: syncChunkWrites may be altered.\
+Exception: tutorialStep may be altered.
+
+A.1.4.a) If a settings value is not possible to achieve through adjusting the in-game sliders/buttons (such as non-integer FOVs), it must not be used. Any slider setting without game-enforced intervals (e.g. mouseSensitivity) may be set to any float value within its bounds.\
+Exception: maxFps may be set to any integer value between 10 and 260 (Unlimited), inclusive.
+
+A.1.5) The game's code and files must not be altered to produce any unfair advantage or significant deviation in gameplay.\
+Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.\
+Exception: The “Cobalt” elytra texture may be used.
+
+A.1.6) The name of hardware components, such as the CPU, must not be altered.
 
 == A.2: Videos
-A.2.1) All runs must be submitted with a video of the run.\
+A.2.1) All runs must be submitted with a video of the run.
+
 A.2.2) <A.2.2> The video of the run must be continuous; it cannot be segmented or not display the run for a duration of time.
-- A.2.2.a) If your video is discontinuous due to an error with your hardware or video recording software, the run may still be verified (at the discretion of verifiers). In this situation, you should open a thread.
-#entangled[Entangled Rule(s):]\
-#entangled[A.2.2 is nullified by: ] #entangledRule("4.1.2")\
-A.2.3) Your video must be permanently available.
-- This excludes but is not limited to:
-- A.2.3.a) Twitch VODs
-A.2.4) Your video must be viewable.
-- Videos which are considered unviewable include but are not limited to:
-- A.2.4.a) Deleted videos
-- A.2.4.b) Private videos
-- A.2.4.c) Password-protected videos
-- A.2.4.d) Videos unavailable in the majority of countries
-- A.2.4.e) Videos which require payments/subscriptions
-- A.2.4.f) Exception: If you wish for your video not to be viewable to the public but still be on the leaderboards, please open a thread. The run may be allowed (at the discretion of verifiers).
-A.2.5) Your video must start before you begin to generate the world.
-- A.2.5.a) Clarification: If you are using Atum's reset feature, the video must include some portion of the prior run, or you must be shown clicking the golden boots.
-- A.2.5.b) Clarification: If you are creating the world without the use of Atum, the video must start at least at the Title Screen; you should include some portion of the prior run.
-- A.2.5.c) <A.2.5.c> Exception: If you are using Atum and SpeedrunIGT, and the SpeedrunIGT timer is visible upon the run's start, and the F3 screen is opened and visible before exiting the world, the video may start immediately prior to the start of the run, rather than prior to the generation of the world.
-- #entangled[Entangled Rule(s):]
-- #entangled[A.2.5.c is referenced by: ] #entangledRule("A.9.2.a")
-A.2.6) If you are not using Atum, every screen of world creation must be shown in the order in which they are pressed.
-- This constitutes:
-- A.2.6.a) The title screen
-- A.2.6.b) The Select World screen
-- A.2.6.c) The Create New World screen
-- A.2.6.d) If used, the More World Options (Pre 1.19)/World (1.19+) screen
-A.2.7) The video must not end before the run is considered completed.\
+
+A.2.2.a) If your video is discontinuous due to an error with your hardware or video recording software, the run may still be verified (at the discretion of verifiers). In this situation, you should open a thread.\
+#entangled[A.2.2 is nullified by ] #entangledRule("4.1.2")
+
+A.2.3) Your video must be permanently available. This excludes but is not limited to:
+- Twitch VODs, Clips, and Highlights
+
+A.2.4) Your video must be viewable. Videos which are considered unviewable include but are not limited to:
++ Deleted videos
++ Private videos
++ Password-protected videos
++ Videos unavailable in the majority of countries
++ Videos which require payments/subscriptions
+Exception: If you wish for your video not to be viewable to the public but still be on the leaderboards, please open a thread. The run may be allowed (at the discretion of verifiers).
+
+A.2.5) <A.2.5> Your video must start before you begin to generate the world.
+Clarification: If you are using Atum's reset feature, the video must include some portion of the prior run, or you must be shown clicking the golden boots.\
+Clarification: If you are creating the world without the use of Atum, the video must start at least at the Title Screen; you should include some portion of the prior run.\
+Exception: If you are using Atum and SpeedrunIGT, and the SpeedrunIGT timer is visible upon the run's start, and the F3 screen is opened and visible before exiting the world, the video may start immediately prior to the start of the run, rather than prior to the generation of the world.\
+#entangled[A.2.5 is referenced by ] #entangledRule("A.9.2")
+
+A.2.6) If you are not using Atum, every screen of world creation must be shown in the order in which they are pressed. This constitutes:
++ The title screen
++ The Select World screen
++ The Create New World screen
++ If used, the More World Options (Pre 1.19) / World (1.19+) screen
+
+A.2.7) The video must not end before the run is considered completed.
+
 A.2.8) <A.2.8> The video must be of acceptable quality. In-game text must be readable. The video must be continuous and stable (at the discretion of verifiers).
-- A.2.8.a) Guidance: If your video experiences a significant decrease in quality/framerate due to an error with your hardware or video recording software, you should open a thread explaining your circumstances, as your run may still be verified.
-#entangled[Entangled Rule(s):]\
-#entangled[A.2.8 is referenced by: ] #entangledRule("A.9.3")\
+Guidance: If your video experiences a significant decrease in quality/framerate due to an error with your hardware or video recording software, you should open a thread explaining your circumstances, as your run may still be verified.\
+#entangled[A.2.8 is referenced by ] #entangledRule("A.9.3")
 
 == A.3: During the Run
 A.3.1) <A.3.1> The F3 screen must be shown during or after the run.
-- A.3.1.a) If you did not show the F3 screen during the run but did at some point during the recording in the same instance, your video must include the aforementioned part of the recording. Your run may be verified (at the discretion of verifiers).
-- A.3.1.b) <A.3.1.b> If you did not show the F3 screen during the run whatsoever, you must send logs following section #entangledRule("A.7.6"). Your run may be verified (at the discretion of verifiers).
-- A.3.1.c) Runs that do not show the F3 screen may be verified (at the discretion of verifiers) without logs if it can be proven that no mods were used.
-- A.3.1.d) Clarification: If the F3 screen is shown after the run, it should be done relatively quickly (at the discretion of verifiers).
-- A.3.1.e) The F3 screen shown must show all relevant parts legibly: the entire first line in the top left must be shown, as well as information in the middle left and middle right text blocks as well. You should take off any overlays (chat, facecam) before showing the F3 screen.
-#entangled[Entangled Rule(s): ]\
-#entangled[A.3.1 is referenced by: ] #entangledRule("F.1.8")\
+
+A.3.1.a) If you did not show the F3 screen during the run but did at some point during the recording in the same instance, your video must include the aforementioned part of the recording. Your run may be verified (at the discretion of verifiers).
+
+A.3.1.b) <A.3.1.b> If you did not show the F3 screen during the run whatsoever, you must send logs following section #entangledRule("A.7.6"). Your run may be verified (at the discretion of verifiers).\
+#entangled[A.3.1.b is referenced by ] #entangledRule("F.1.8")
+
+A.3.1.c) Runs that do not show the F3 screen may be verified (at the discretion of verifiers) without logs if it can be proven that no mods were used.
+
+A.3.1.d) Clarification: If the F3 screen is shown after the run, it should be done relatively quickly (at the discretion of verifiers).
+
+A.3.1.e) The F3 screen shown must show all relevant parts legibly: the entire first line in the top left must be shown, as well as information in the middle left and middle right text blocks as well. You should take off any overlays (chat, facecam) before showing the F3 screen.
+
 A.3.2) You must not alter your system time to intentionally use time-sensitive features (specifically Halloween and Christmas game modifications).\
 A.3.3) <A.3.3> You must not open to LAN during the run.\
 #entangled[Entangled Rule(s):]\
@@ -460,9 +463,11 @@ Allowed behaviours include but are not limited to:
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
 
 == A.9: Multi-Instance Rules
-A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
-A.9.2) If multiple instances of Minecraft are being used, each instance must be recorded, either in the main recording or in a separate recording submitted as additional proof.
-- A.9.2.a) <A.9.2.a> Exception: If the criteria of #entangledRule("A.2.5.c") are met (playing with Atum, SpeedrunIGT, and showing the F3 screen prior to leaving the world), only the instance which the player plays must be recorded.
+A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).
+
+A.9.2) <A.9.2> If multiple instances of Minecraft are being used, each instance must be recorded, either in the main recording or in a separate recording submitted as additional proof.\
+Exception: If the criteria of the #entangledRule("A.2.5") exception are met (playing with Atum, SpeedrunIGT, and showing the F3 screen prior to leaving the world), only the instance which the player plays must be recorded.
+
 A.9.3) If each instance must be recorded (i.e. they are not subject to the exception of A.9.2.a), the video of the instances that are in the background or not currently being played do not have to follow as strict criteria as #entangledRule("A.2.8"). However, they must meet the following requirements: <A.9.3>
 - A.9.3.a) The text on the percentage on the loading screen should be legible, along with the chunkmap which shows the world being generated.
 - A.9.3.b) To follow A.9.3.a, if the default video's percentage text is illegible, runners may zoom in on the chunk map and percentage text. If WorldPreview 2.3.3 is used, this must capture both the initial text/chunkmap in the centre of the screen, along with the text and chunkmap when it jumps to the bottom left when the WorldPreview begins. The rest of the screen should also still be included.
@@ -968,7 +973,7 @@ H.1.2) In set seed runs, if you spawn into the world rotated from the initial ca
 
 == 8.1: Any% Glitchless (Peaceful) Objective and Clarifications
 8.1.1) <8.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
-8.1.2) <8.1.2> In addition to the world generation difficulty settings allowed in #entangledRule("A.1.3.b"), you may also toggle the difficulty to Peaceful.\
+8.1.2) <8.1.2> In addition to the world generation difficulty settings allowed in #entangledRule("A.1.3"), you may also toggle the difficulty to Peaceful.\
 #entangled[Entangled Rule(s):]\
 #entangled[8.1.2 is referenced by: ] #entangledRule("9.1.2")\
 8.1.3) <8.1.3> Runs must be played entirely in the Peaceful difficulty, nullifying #entangledRule("A.3.11").
@@ -1235,7 +1240,7 @@ CE16.1.1) The run is considered complete once the player beats every major versi
 - CE16.1.1.a) Timing begins once the player begins the respective starting version.
 - CE16.1.1.b) <CE16.1.1.b> Timing ends once the player completes the final version, as per Any% Glitchless standards (see #entangledRule("1.1.1")).
 CE16.1.2) Clarification: Players must complete each version consecutively (1.0, 1.1, 1.2, 1.3…).\
-CE16.1.3) <CE16.1.3> Clarification: Any subversion may be chosen for each main version. This excludes versions considered pre-releases as defined by #entangledRule("A.1.2.f.i").\
+CE16.1.3) <CE16.1.3> Clarification: Any subversion may be chosen for each main version. This excludes versions considered pre-releases as defined by #entangledRule("A.1.2").\
 CE16.1.4) <CE16.1.4> The category is timed by RTA, nullifying #entangledRule("A.5").
 - CE16.1.4.a) Clarification: Runners may reset, but this time will count towards your final time.
 CE16.1.5) The run must be played in one sitting.
