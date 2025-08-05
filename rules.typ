@@ -1405,3 +1405,5 @@ CE26.1.2) You must press F3 when displaying that you have met the run's objectiv
 - CE26.1.2.a) <CE26.1.2.a> Exception to #entangledRule("A.6.2"): If your run only uses F3 to display that you have met the run's objective, your run will be marked as No F3.
 CE26.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE26.1.4) All runs begin upon first input.
+
+GitHub desktop test.
