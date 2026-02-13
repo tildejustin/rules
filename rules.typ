@@ -174,7 +174,7 @@ A.2.1) All runs must be submitted with a video of the run.\
 A.2.2) <A.2.2> The video of the run must be continuous; it cannot be segmented or not display the run for a duration of time.
 - A.2.2.a) If your video is discontinuous due to an error with your hardware or video recording software, the run may still be verified (at the discretion of verifiers). In this situation, you should open a thread.
 #entangled[Entangled Rule(s):]\
-#entangled[A.2.2 is nullified by: ] #entangledRule("4.1.2")\
+#entangled[A.2.2 is nullified by: ] #entangledRule("A.5.19")\
 A.2.3) Your video must be permanently available.
 - This excludes but is not limited to:
 - A.2.3.a) Twitch VODs and clips
@@ -331,7 +331,7 @@ A.5.4) Unless otherwise specified, pauses do not contribute towards in-game time
 - A.5.4.f) The advancements menu opening
 - A.5.4.g) The confirmation screen upon clicking [Intentional Game Design]
 - A.5.4.h) The "Twitch Broadcasting Unavailable" Menu
-- A.5.4.i) Clarification: Pressing the Statistics menu causes the game to temporarily advance in versions prior to 1.21.6. This time will be added towards the final time.
+- A.5.4.i) Clarification: Opening the Statistics or Achievements / Advancements menu may cause the game to temporarily advance in versions between 1.7.2 and 1.21.5. This time will be added towards the final time.
 - A.5.4.j) The Debug Options menu
 A.5.5) Loading times (the Loading Terrain screen and Joining World screen) do not contribute towards in-game time.\
 A.5.6) If lag occurs in the run which causes your game to freeze fully, this time will not contribute towards in-game time.\
@@ -374,7 +374,7 @@ A.5.18) <A.5.18> If a run ends by obtaining item(s), timing ends once the first 
   "CE13.1.1.a",
   "CE18.1.1.a",
 ))\
-A.5.19) <A.5.19> Segmenting, pausing the speedrun for a time by quitting the world and ending the recording, is allowed in a few categories. Segmenting suspends both #entangledRule("A.2.2") and #entangledRule("D.1.3") if and only if the following pretences are met:
+A.5.19) <A.5.19> Segmenting, pausing the speedrun for a time by quitting the world and ending the recording, is allowed in a few categories. Segmenting suspends both #entangledRule("A.2.2") and #entangledRule("D.1.3") if and only if the following requirements are met:
 - A.5.19.a) You must have the included video(s) show you exiting the world each time you do so.
 - A.5.19.b) You must have the included video(s) show you re-entering the world each time you do so.
 - A.5.19.c) <A.5.19.c> In between segments of the current run, you must not play anything other than the current run on the instance that the current run is on.
@@ -386,7 +386,7 @@ A.5.19) <A.5.19> Segmenting, pausing the speedrun for a time by quitting the wor
 - A.5.19.e) Clarification: For glitchless runs, the segmentation must not provide any additional benefit to the run.
 - A.5.19.f) Time spent between the segments of the run will not contribute to in-game time or the real time of the run.
 #entangled[Entangled Rule(s):]\
-#entangled[A.5.19 is referenced by: ] #entangledRule("4.1.5")\
+#entangled[A.5.19 is referenced by: ] #entangledRules("4.1.5", "CE19.3.4")\
 
 == A.6: General Submission Rules
 A.6.1) The run's speedrun.com submission description must include the seed of the world.
@@ -622,9 +622,9 @@ C.2.1) <C.2.1> Exception to #entangledRule("A.3.10") and #entangledRule("A.10.5"
 = D: Glitchless Ruleset
 
 == D.1: Glitchless Runs
-#formatNote[D.1.note) Glitches are only allowed in glitchless on a case-by-case basis. What differentiates major and minor glitches is nebulous, but is generally defined by if it can be done unintentionally. In terms of legalising a glitch, it is generally done by the mod team's discretion of how severely they stray from the “spirit of the game” as seen by the general Minecraft community, whether they make the speedruns more or less fun to play, and how easy it is to perform accidentally. In general, one should err on the side of caution in terms of if something is an allowed glitch; it is highly encouraged to open a thread and ask if a technique quantifies as a glitch, and if not, if it will be allowed in glitchless runs.]\
+#formatNote[D.1.note) Glitches are only allowed in glitchless on a case-by-case basis. What differentiates a glitch from a technique is nebulous, but is generally defined by if it can be done unintentionally. In terms of legalising a glitch, it is generally done by the mod team's discretion of how severely they stray from the “spirit of the game” as seen by the general Minecraft community, whether they make the speedruns more or less fun to play, and how easy it is to perform accidentally. In general, one should err on the side of caution in terms of if something is a glitch or a technique; it is highly encouraged to open a thread and ask if a technique qualifies as a glitch and if it will be allowed in glitchless runs.]\
 \
-D.1.1) Only minor glitches may be used during glitchless runs.
+D.1.1) Only these glitches may be used during glitchless runs.
 - This constitutes:
 - D.1.1.a) Double-eating (#formatLink("https://bugs.mojang.com/browse/MC-849")[MC-849])
 - D.1.1.b) Infinite villager restocking (#formatLink("https://bugs.mojang.com/browse/MC-157136")[MC-157136])
@@ -942,15 +942,15 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 #entangled[4.1 is referenced by: ] #entangledRules(("3.1.1", "6.1.1"))\
 4.1.1) The run is considered complete once every advancement has been achieved.
 - 4.1.1.a) Timing ends once the chat notification for the last advancement is shown.
-4.1.2) <4.1.2> Runs must demonstrate all advancements have been obtained.
+4.1.3) <4.1.3> Runs must demonstrate all advancements have been obtained.
 - This constitutes at least one of the following:
 - 4.1.2.a) The advancement file from the world is submitted.
 - 4.1.2.b) World files are submitted.
 - 4.1.2.c) An advancement tracker is displayed the count of advancements have been completed.
 - 4.1.2.d) SpeedRunIGT is set to the right category and autostops.
 #entangled[Entangled Rule(s):]\
-#entangled[4.1.2 is referenced by: ] #entangledRule("CE24.1.2")\
-4.1.4) <4.1.4> All runs begin on world load.
+#entangled[4.1.3 is referenced by: ] #entangledRule("CE24.1.2")\
+4.1.4) All runs begin on world load.
 4.1.5) <4.1.5> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
 
 == 4.2: SS/SSG/RS/RSG, 1.12
@@ -1361,6 +1361,7 @@ CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11"), t
 - CE19.3.3.b) #formatLink("https://github.com/shnenanigans/APgui")[APgui [shnenanigans]]
 - CE19.3.3.c) #formatLink("https://www.desmos.com/calculator/la7ezpyutu")[Desmos Stronghold Rings]
 - CE19.3.3.d) #formatLink("https://github.com/CommonCrayon/CrayonAllPortals")[CrayonAllPortals] (up to v1.0)
+CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
 
 == CE19.4: All Portals Purist
 CE19.4.1) Purist runs must be played on random seed glitchless.\
@@ -1409,7 +1410,7 @@ CE23.1.3) All runs begin upon first input.
 == CE24.1: Half% Objective and Clarifications
 CE24.1.1) <CE24.1.1> The run is considered complete once exactly 40 advancements, as listed in #entangledRule("4.6.1"), have been obtained.
 - CE24.1.1.a) Timing ends once the chat notification for the last advancement is shown.
-CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.2").
+CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.3").
 CE24.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
