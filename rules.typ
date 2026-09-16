@@ -738,6 +738,8 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.ah) <D.1.2.ah> Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
 - #entangled[Entangled Rule(s):]
 - #entangled[D.1.2.ah is referenced by: ] #entangledRule("E.1.6.b")
+- D.1.2.ai) Unloading and reloading the dragon during the death animation to repeat XP drop (#formatLink("https://youtu.be/iIcUcPy6zio")[Example], #formatLink("https://youtu.be/j2wC8j81TYc")[Example \#2])
+
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
