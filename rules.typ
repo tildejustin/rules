@@ -690,7 +690,6 @@ D.1.1) Only minor glitches may be used during glitchless runs.
 - D.1.1.av) One-tick container access in nether portals (#formatLink("https://youtu.be/m8Eg-FnGc2Q&t=14")[Example])
 - D.1.1.aw) Fire boat (#formatLink("https://youtu.be/XhyoWkTtJv8")[Example])
 - D.1.1.ax) <D.1.1.ax> Ghost buckets, when not used to lava blip as in #entangledRule("D.1.2.n") (#formatLink("https://youtu.be/EjwStTX4U3A")[Example])
-- D.1.1.ay) Trading with dead villagers (#formatLink("https://bugs.mojang.com/browse/MC-19764")[MC-19764], #formatLink("https://youtu.be/8ZQTTgXbHX8")[Example])
 - D.1.1.az) Preventing entity cramming with climbable blocks (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-177062")[MC-177062])
 - D.1.1.ba) Feeding a parrot a cookie to obtain Over-Overkill advancement (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-269656")[MC-269656])
 - D.1.1.bb) Trapping wither (#formatLink("https://youtu.be/PCkzhtBl_xY&t=91")[Example], #formatLink("https://youtu.be/O-QgTljCgZw&t=153")[Example \#2])
@@ -761,6 +760,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.ao) Bed desync abuse (#formatLink("https://youtu.be/r1a39hb72cw")[Example])
 - D.1.2.ap) Inventory walk (#formatLink("https://youtu.be/T-YYFqGVISk")[Example])
 - D.1.2.aq) Mouse buttons stuck down by reloading resource pack (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-153680")[MC-153680])
+- D.1.2.ar) Trading with dead villagers (#formatLink("https://bugs.mojang.com/browse/MC-19764")[MC-19764], #formatLink("https://youtu.be/8ZQTTgXbHX8")[Example])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
