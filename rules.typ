@@ -946,7 +946,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 4.1: All Advancements Objective, Exceptions, and Clarifications <4.1>
 #entangled[Entangled Rule(s):]\
 #entangled[4.1 is referenced by: ] #entangledRules(("3.1.1", "6.1.1"))\
-4.1.1) The run is considered complete once every advancement has been obtained.
+4.1.1) The run is considered complete once every advancement has been obtained simultaneously.
 - 4.1.1.a) Timing ends once the chat notification for the last advancement is shown.
 - 4.1.1.b) Clarification: This includes include hidden and root advancements but not recipes.
 4.1.2) <4.1.2> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.\
