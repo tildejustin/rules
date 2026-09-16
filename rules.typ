@@ -700,6 +700,8 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.a) Duplication and zero-stack glitches (#formatLink("https://youtu.be/PYFMGuicVWA&t=102")[Example])
 - D.1.2.b) Save and Quit damage prevention abuse (#formatLink("https://youtu.be/KjxrjT8xRrE&t=953")[Example])
 - D.1.2.c) X-Ray; minor unintentional x-rays may be verified, but intentional (or important but unintentional) x-rays (at the discretion of verifiers) must not be used (such as in this #formatLink("https://youtu.be/oImgrxw-v6I&t=688")[example]).
+  - D.1.2.c.i) Clarification: There are many types of x-rays. This includes reloading the world renderer to see entities through walls (e.g. abuse of F3 + A and F3 + F), using F5 to clip the camera into walls (e.g. when crawling to see lava and caves), abusing pose animations to get the camera inside blocks without a block overlay (e.g. pearling into the ceiling in a stronghold), using a wide game resolution to see around a block overlay, crawling in composters, etc.
+  - D.1.2.c.ii) Guidance: X-Rays during stronghold navigation are regulated more strictly.
 - D.1.2.d) Shearing sheep during their dying animation (#formatLink("https://bugs.mojang.com/browse/MC-76416")[MC-76416])
 - D.1.2.e) Nothing MLG (#formatLink("https://youtu.be/flt0V9QdfIQ")[Example])
 - D.1.2.h) <D.1.2.h> Slime spectating (#formatLink("https://t.co/UErxU74UW1")[Example])
