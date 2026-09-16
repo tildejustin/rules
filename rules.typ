@@ -669,7 +669,9 @@ D.1.1) Only minor glitches may be used during glitchless runs.
 - D.1.1.ad) Sprint continuation, including sprint crawling and sneaking (#formatLink("https://bugs.mojang.com/browse/MC-152728")[MC-152728])
 - D.1.1.ae) Sprint desync (#formatLink("https://bugs.mojang.com/browse/MC-69459")[MC-69459], #formatLink("https://youtu.be/NiOMVtrkV-M")[Example]) and backwards sprint state (#formatLink("https://docs.google.com/document/d/1LERIwzgARnEHtpQbaqXcUmFm40hVQukpcbKkavfwTW4")[Write-up], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-30403")[MC-30403], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-257082")[MC-257082], #formatLink("https://youtu.be/V3J5gT6XaQU")[Example], #formatLink("https://youtu.be/KuKgkoaw6W8")[Example 2])
 - D.1.1.af) Receiving looting benefits while killing mobs with a bow/TNT (#formatLink("https://bugs.mojang.com/browse/MC-3304")[MC-3304])
-- D.1.1.ag) Eat skip (#formatLink("https://youtu.be/DCz1KAtGsZs")[Example])
+- D.1.1.ag) <D.1.1.ag> Eat skip (#formatLink("https://youtu.be/DCz1KAtGsZs")[Example])
+- #entangled[Entangled Rule(s):]
+- #entangled[D.1.1.ag is referenced by: ] #entangledRule("D.1.2.aj")
 - D.1.1.ah) Boat break on certain heights (#formatLink("https://bugs.mojang.com/browse/MC-119369")[MC-119369])
 - D.1.1.ai) Entering and breaking a boat simultaneously (#formatLink("https://youtu.be/RtDjfQqZB0Y")[Example])
 - D.1.1.aj) Entering and breaking a nether portal simultaneously (#formatLink("https://youtu.be/FKT3cwU432k")[Example])
@@ -739,7 +741,8 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - #entangled[Entangled Rule(s):]
 - #entangled[D.1.2.ah is referenced by: ] #entangledRule("E.1.6.b")
 - D.1.2.ai) Unloading and reloading the dragon during the death animation to repeat XP drop (#formatLink("https://youtu.be/iIcUcPy6zio")[Example], #formatLink("https://youtu.be/j2wC8j81TYc")[Example \#2])
-
+- D.1.2.aj) <D.1.2.aj> Shield and bow desync (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-86252")[MC-86252], #formatLink("https://youtu.be/waCCsyUP5Ok")[Example])
+    - D.1.2.aj.i) Clarification: This same glitch is allowed for consumable items as eat skip (#entangledRule("D.1.1.ag")).
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
