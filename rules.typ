@@ -755,6 +755,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - #entangled[Entangled Rule(s):]
 - #entangled[D.1.2.am is referenced by: ] #entangledRule("D.1.1.bj")
 - D.1.2.an) Dropping items post-death (#formatLink("https://youtu.be/VdzC59nz8s")[Example])
+- D.1.2.ao) Bed desync abuse (#formatLink("https://youtu.be/r1a39hb72cw")[Example])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
