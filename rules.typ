@@ -746,6 +746,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.aj) <D.1.2.aj> Shield and bow desync (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-86252")[MC-86252], #formatLink("https://youtu.be/waCCsyUP5Ok")[Example])
     - D.1.2.aj.i) Clarification: This same glitch is allowed for consumable items as eat skip (#entangledRule("D.1.1.ag")).
 - D.1.2.ak) Retaining beacon effects after breaking lower layers (#formatLink("https://bugs.mojang.com/browse/MC-2440")[MC-2440])
+- D.1.2.al) Respawning dragon with fewer than 4 crystals (#formatLink("https://youtu.be/oSD3cYodh_A")[Example])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
