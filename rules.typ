@@ -705,6 +705,7 @@ D.1.1) Only minor glitches may be used during glitchless runs.
   - D.1.1.bj.i) Clarification: This is not to be confused with wireless mining (#entangledRule("D.1.2.am")).
 - D.1.1.bk) Piston pearl stasis (#formatLink("https://youtu.be/hlsSDmr3xYU")[Example])
 - D.1.1.bl) Multiple protection armour (#formatLink("https://bugs.mojang.com/browse/MC-141961")[MC-141961])
+- D.1.1.bm) Airplace (#formatLink("https://youtu.be/cMfB9RSQ7wM")[Example])
 D.1.2) Any other glitches not included in D.1.1 must not be used during glitchless runs.
 - Examples of glitches that are not allowed include but are not limited to:
 - D.1.2.a) Duplication and zero-stack glitches (#formatLink("https://youtu.be/PYFMGuicVWA&t=102")[Example])
