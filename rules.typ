@@ -144,8 +144,6 @@ A.1.2) Runs must be performed on Minecraft 1.0 or later using an official releas
 - A.1.2.e) Release candidates
 - A.1.2.f) Pre-releases
   - A.1.2.f.i) <A.1.2.f.i> Guidance: Versions 1.2, 1.3, 1.4, 1.4.1, 1.4.3, 1.5, 1.6, 1.6.3, 1.7, 1.7.1, and 1.7.3 are considered pre-releases and must not be used.
-  - #entangled[Entangled Rule(s):]
-  - #entangled[A.1.2.f.i is referenced by: ] #entangledRule("CE16.1.3")
 - A.1.2.g) Combat tests
 A.1.3) <A.1.3> The default settings of world generation must be kept.
 - The only allowable settings that may be changed constitute:
@@ -299,7 +297,7 @@ This excludes but is not limited to:
 == A.5: Timing Rules <A.5>
 #entangled[Entangled Rule(s):]\
 #entangled[A.5 is referenced by: ] #entangledRule("E.2.2")\
-#entangled[A.5 is nullified by: ] #entangledRules(("F.2.4", "11.1.2", "CE16.1.4"))\
+#entangled[A.5 is nullified by: ] #entangledRules(("F.2.4", "11.1.2"))\
 A.5.1) <A.5.1> Runs begin timing on either world load, referring to when the player is placed into the world, or on first input.
 - A.5.1.a) Clarification: The timing method that is applied is defined by the category, and not chosen by the player.
 - A.5.1.b) Guidance: Random seed categories, longer categories, and categories which benefit from waiting additional time are likely (though not always) timed by world load, whereas set seed categories and shorter categories are likely (though not always) timed by first input.
@@ -397,7 +395,6 @@ A.6.2) <A.6.2> Mark your run as F3 if it uses the F3 screen during the run, or a
 - A.6.2.d) Clarification: If the mod StandardSettings is used and the f3PauseOnWorldLoad setting in the standardoptions.txt file is set to true, your run will be marked as using F3.
 #entangled[Entangled Rule(s):]\
 #entangled[A.6.2 is referenced by: ] #entangledRules((
-  "CE16.2.1",
   "CE19.4.3",
   "CE26.1.2.a",
 ))\
@@ -867,7 +864,6 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
   "9.1.1",
   "11.1.1",
   "CE1.1.1.b",
-  "CE16.1.1.b",
   "CE19.1.1.a",
 ))\
 1.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
@@ -1306,32 +1302,6 @@ CE15.1.1) The run is considered complete once the player enters the end.
 - CE15.1.1.a) Timing ends once the player leaves the end portal in the overworld and enters the loading screen to enter the end/the lag accompanied with entering the end.
 CE15.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE15.1.3) All runs begin upon first input.
-
-= CE16: All Versions
-
-== CE16.1: All Versions Objective and Clarifications
-CE16.1.1) The run is considered complete once the player beats every major version in the selected version range.
-- CE16.1.1.a) Timing begins once the player begins the respective starting version.
-- CE16.1.1.b) <CE16.1.1.b> Timing ends once the player completes the final version, as per Any% Glitchless standards (see #entangledRule("1.1.1")).
-CE16.1.2) Clarification: Players must complete each version consecutively (1.0, 1.1, 1.2, 1.3…).\
-CE16.1.3) <CE16.1.3> Clarification: Any subversion may be chosen for each main version. This excludes versions considered pre-releases as defined by #entangledRule("A.1.2.f.i").\
-CE16.1.4) <CE16.1.4> The category is timed by RTA, nullifying #entangledRule("A.5").
-- CE16.1.4.a) Clarification: Runners may reset, but this time will count towards your final time.
-CE16.1.5) The run must be played in one sitting.
-- CE16.1.5.a) Guidance: Because of the very long nature of this run, you should prioritise your health and well-being over the completion of this run.
-CE16.1.6) All runs begin upon world load.
-
-== CE16.2: All Versions Submission
-CE16.2.1) <CE16.2.1> Select F3 if your run uses F3 (as defined in #entangledRule("A.6.2")) for any run.\
-CE16.2.2) The subversion and version of the run should be marked as 1.0.\
-CE16.2.3) The in-game time of the run should be left blank.
-
-== CE16.3: Set Seed Glitchless Clarification
-CE16.3.1) Runs must use the same numerical seed for every version.
-- CE16.3.1.a) Example: If the seed “1234” is chosen, it must be used for the 1.0 run, 1.1 run, 1.2 run, etc.
-
-== CE16.4: Random Seed Glitchless Clarification
-CE16.4.1) Every run must use a random seed.
 
 = CE17: Mine a Chunk
 
