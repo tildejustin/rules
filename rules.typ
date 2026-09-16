@@ -741,7 +741,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.af) Using server-client position desync to wait in a portal without the portal animation (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
 - D.1.2.ag) Clipping into a block to tick the server player faster than normal (#formatLink("https://youtu.be/b4hS_LdSRbg")[Example])
   - D.1.2.ag.i) Clarification: When possible, enforcement of the ban on this glitch when applied to nether portals will consist of retiming.
-- D.1.2.ah) <D.1.2.ah> Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
+- D.1.2.ah) <D.1.2.ah> Credits warp and redstone permasupression (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
 - #entangled[Entangled Rule(s):]
 - #entangled[D.1.2.ah is referenced by: ] #entangledRule("E.1.6.b")
 - D.1.2.ai) Unloading and reloading the dragon during the death animation to repeat XP drop (#formatLink("https://youtu.be/iIcUcPy6zio")[Example], #formatLink("https://youtu.be/j2wC8j81TYc")[Example \#2])
@@ -773,7 +773,7 @@ E.1.5) Glitched runs must be played entirely within one version.\
 E.1.6) Cross-world glitches, or glitches that require setup in another world, are legalized on a case-by-case basis.\
 Allowed cross-world glitches include:
 - E.1.6.a) <E.1.6.a> Slime spectating (#entangledRule("D.1.2.h"))
-- E.1.6.b) <E.1.6.b> Credits warp (#entangledRule("D.1.2.ah"))
+- E.1.6.b) <E.1.6.b> Redstone permasupression (#entangledRule("D.1.2.ah"))
 Banned cross world glitches include:
 - E.1.6.c) World merge (#formatLink("https://youtu.be/a-YhOtj6HmE")[Example])
 - E.1.6.d) Joining a server and a singleplayer world at the same time (#formatLink("https://youtu.be/b9JscBrY8VA")[Example])
