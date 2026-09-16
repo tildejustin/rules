@@ -762,6 +762,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.aq) Mouse buttons stuck down by reloading resource pack (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-153680")[MC-153680])
 - D.1.2.ar) Trading with dead villagers (#formatLink("https://bugs.mojang.com/browse/MC-19764")[MC-19764], #formatLink("https://youtu.be/8ZQTTgXbHX8")[Example])
 - D.1.2.as) Lazy linking (#formatLink("https://youtu.be/MMdHf-aRAv4")[Example]) and lazy acceleration (#formatLink("https://youtu.be/HscY70qjSU4&t=201s")[Example])
+- D.1.2.at) Nullstate (#formatLink("https://youtu.be/naz1QQlk0wI")[Example])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
