@@ -641,7 +641,7 @@ D.1.1) Only minor glitches may be used during glitchless runs.
 - This constitutes:
 - D.1.1.a) Double-eating (#formatLink("https://bugs.mojang.com/browse/MC-849")[MC-849])
 - D.1.1.b) Infinite villager restocking (#formatLink("https://bugs.mojang.com/browse/MC-157136")[MC-157136])
-- D.1.1.c) Glitched Endermen spawns in the End (#formatLink("https://bugs.mojang.com/browse/MC-164205")[MC-164205])
+- D.1.1.c) Glitched hostile mob spawning when switching to easy (#formatLink("https://bugs.mojang.com/browse/MC-164205")[MC-164205], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-168338")[MC-168338])
 - D.1.1.d) Minecart boosting (#formatLink("https://youtu.be/oK9NZKQX6uY&t=6399")[Example])
 - D.1.1.e) Ender pearl clipping (#formatLink("https://bugs.mojang.com/browse/MC-2164")[MC-2164])
 - D.1.1.f) Accessing the Nether Roof (#formatLink("https://youtu.be/oK9NZKQX6uY&t=6387")[Example])
