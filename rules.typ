@@ -701,6 +701,8 @@ D.1.1) Only minor glitches may be used during glitchless runs.
 - D.1.1.bg) Increased vertical height by fire ticks on low framerate (#formatLink("https://youtu.be/YoBguG0ZDsc")[Example])
 - D.1.1.bh) Elivator 2.0 (#formatLink("https://youtu.be/U2xmYLJqQ44")[Example])
 - D.1.1.bi) Bed crawl (#formatLink("https://youtu.be/7JfFVLnTQWk")[Example])
+- D.1.1.bj) <D.1.1.bj> Maintaining block breaking status after losing focus (#formatLink("https://youtu.be/Vrc6EJFktH0")[Example], #formatLink("https://bugs.mojang.com/browse/MC-69865")[MC-69865])
+  - D.1.1.bj.i) Clarification: This is not to be confused with wireless mining (#entangledRule("D.1.2.am")).
 D.1.2) Any other glitches not included in D.1.1 must not be used during glitchless runs.
 - Examples of glitches that are not allowed include but are not limited to:
 - D.1.2.a) Duplication and zero-stack glitches (#formatLink("https://youtu.be/PYFMGuicVWA&t=102")[Example])
@@ -749,6 +751,9 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
     - D.1.2.aj.i) Clarification: This same glitch is allowed for consumable items as eat skip (#entangledRule("D.1.1.ag")).
 - D.1.2.ak) Retaining beacon effects after breaking lower layers (#formatLink("https://bugs.mojang.com/browse/MC-2440")[MC-2440])
 - D.1.2.al) Respawning dragon with fewer than 4 crystals (#formatLink("https://youtu.be/oSD3cYodh_A")[Example])
+- D.1.2.am) <D.1.2.am> Wireless mining (#formatLink("https://youtu.be/yuNUyAY9950")[Example])
+- #entangled[Entangled Rule(s):]
+- #entangled[D.1.2.am is referenced by: ] #entangledRule("D.1.1.bj")
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
