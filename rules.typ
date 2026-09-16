@@ -1413,7 +1413,7 @@ CE25.1.2) The four flags you must create must have the following colours:
 - CE25.1.2.b) Gay: Red, Orange, Yellow, Green, Blue, Purple
 - CE25.1.2.c) Bisexual: Magenta, Purple, Blue
 - CE25.1.2.d) Transgender: Light Blue, Pink, White, Pink, Light Blue
-- CE25.1.2.e) Showcase: An #formatLink("https://imgur.com/shBryrT")[image] of the colours which need to be included in the flag.
+#figure(image("images/pride.png", width: 80%, scaling: "pixelated"), caption: "An image of the colours which need to be included in the flag.", supplement: none)
 CE25.1.3) The banner pattern which represents any given flag must not contain any colours not listed in CE25.1.2.\
 CE25.1.4) For a banner pattern to qualify as representing a given flag, it must be possible for one to draw an uncurved line which intersects the flag colours in order (defined in CE25.1.2).
 - CE25.1.4.a) Clarification: This line does not necessarily need to cover the entire length/width of the banner.
