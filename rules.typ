@@ -170,22 +170,14 @@ A.1.5) The game's code and files must not be altered to produce any unfair advan
 - A.1.6) The name of hardware components, such as the CPU, must not be altered.
 
 == A.2: Videos
-A.2.1) All runs must be submitted with a video of the run.\
+A.2.1) All runs must be submitted with a video of the run.
+- A.2.1.a) Clarification: Your video must be permanently available (this excludes Twitch VODs and clips).
+- A.2.1.b) Clarification: Your video must be viewable (this excludes deleted, private, and globally unavailable videos).
+- A.2.1.c) Exception: If you wish for your video not to be viewable to the public but still be on the leaderboards, please open a thread. The run may be allowed (at the discretion of verifiers).
 A.2.2) <A.2.2> The video of the run must be continuous; it cannot be segmented or not display the run for a duration of time.
 - A.2.2.a) If your video is discontinuous due to an error with your hardware or video recording software, the run may still be verified (at the discretion of verifiers). In this situation, you should open a thread.
 #entangled[Entangled Rule(s):]\
 #entangled[A.2.2 is nullified by: ] #entangledRule("A.5.19")\
-A.2.3) Your video must be permanently available.
-- This excludes but is not limited to:
-- A.2.3.a) Twitch VODs and clips
-A.2.4) Your video must be viewable.
-- Videos which are considered unviewable include but are not limited to:
-- A.2.4.a) Deleted videos
-- A.2.4.b) Private videos
-- A.2.4.c) Password-protected videos
-- A.2.4.d) Videos unavailable in the majority of countries
-- A.2.4.e) Videos which require payments/subscriptions
-- A.2.4.f) Exception: If you wish for your video not to be viewable to the public but still be on the leaderboards, please open a thread. The run may be allowed (at the discretion of verifiers).
 A.2.5) Your video must start before you begin to generate the world.
 - A.2.5.a) Clarification: If you are using Atum's reset feature, the video must include some portion of the prior run, or you must be shown clicking the golden boots.
 - A.2.5.b) Clarification: If you are creating the world without the use of Atum, the video must start at least at the Title Screen; you should include some portion of the prior run.
