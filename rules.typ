@@ -1057,6 +1057,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 CE1.1.1) The run is considered complete once all specified bosses are killed.
 - CE1.1.1.a) If the last boss killed is not the ender dragon, timing ends once the last boss is killed.
 - CE1.1.1.b) <CE1.1.1.b> If the last boss killed is the ender dragon, timing ends as per Any% Glitchless standards (see #entangledRule("1.1.1")).
+- CE1.1.1.c) Clarification: The dragon is considered killed once the death animation ends.
 CE1.1.2) Bosses must be killed by the player's actions.
 - CE1.1.2.a) Example: If a boss suffocates to death purely as a result of world generation, it is not considered killed.
 CE1.1.3) Runs must show that the boss is killed.
