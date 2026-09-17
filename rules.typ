@@ -300,7 +300,7 @@ A.5.1) <A.5.1> Runs begin timing on either world load, referring to when the pla
 #entangled[A.5.1 is referenced by: ] #entangledRule("F.2.1")\
 A.5.2) <A.5.2> First input timing begins when the player begins actions within the world.
 - This constitutes:
-- A.5.2.a) <A.5.2.a> Moving, both voluntary (e.g. pressing keys) and involuntary (e.g. pushed by mobs)
+- A.5.2.a) <A.5.2.a> Moving, both voluntary (e.g. pressing keys) and involuntary (e.g. pushed by mobs, falling into ocean)
 - #entangled[Entangled Rule(s):]
 - #entangled[A.5.2.a is referenced by: ] #entangledRule("F.2.2.b.i")
 - A.5.2.b) Camera rotation
@@ -1131,11 +1131,10 @@ CE6.1.1) <CE6.1.1> The run is considered complete once the item in question has 
 - CE6.1.1.a) Timing ends once the item is obtained (see #entangledRule("A.5.18")).
 CE6.1.2) <CE6.1.2> All runs begin upon first input.\
 #entangled[Entangled Rule(s):]\
-#entangled[CE6.1.2 is nullified by: ] #entangledRules(("CE6.2.2", "CE6.4.2"))\
+#entangled[CE6.1.2 is nullified by: ] #entangledRule("CE6.4.2"))\
 
 == CE6.2: Obtain Diamond, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
 CE6.2.1) The run is considered complete once a diamond is obtained.\
-CE6.2.2) <CE6.2.2> Exception: Obtain Diamond Set Seed Glitchless No Structures begins upon world load, nullifying #entangledRule("CE6.1.2").
 
 == CE6.3: Obtain Emerald, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
 CE6.3.1) The run is considered complete once an emerald is obtained.
