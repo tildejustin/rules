@@ -1208,8 +1208,11 @@ CE9.6.1) The run is considered complete once an oak log, a spruce log, birch log
 == CE9.7: Set Seed Glitchless/Random Seed Glitchless, 1.20-1.21.3
 CE9.7.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, and a cherry log are obtained.
 
-== CE9.8: Set Seed Glitchless/Random Seed Glitchless, 1.21.4+
+== CE9.8: Set Seed Glitchless/Random Seed Glitchless, 1.21.4-26.2
 CE9.8.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, and a pale oak log are obtained.
+
+== CE9.9: Set Seed Glitchless/Random Seed Glitchless, 26.3
+CE9.9.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, pale oak log, and a poplar log are obtained.
 
 = CE10: All Wool
 
