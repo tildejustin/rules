@@ -294,7 +294,7 @@ This excludes but is not limited to:
 #entangled[Entangled Rule(s):]\
 #entangled[A.5 is referenced by: ] #entangledRule("E.2.2")\
 #entangled[A.5 is nullified by: ] #entangledRules(("F.2.4", "11.1.2"))\
-A.5.1) <A.5.1> Runs begin timing on either world load, referring to when the player is placed into the world, or on first input.
+A.5.1) <A.5.1> Runs begin timing on either world load or on first input.
 - A.5.1.a) Clarification: The timing method that is applied is defined by the category, and not chosen by the player.
 - A.5.1.b) Guidance: Random seed categories, longer categories, and categories which benefit from waiting additional time are likely (though not always) timed by world load, whereas set seed categories and shorter categories are likely (though not always) timed by first input.
 #entangled[Entangled Rule(s):]\
@@ -380,6 +380,12 @@ A.5.19) <A.5.19> Segmenting, pausing the speedrun for a time by quitting the wor
 - A.5.19.f) Time spent between the segments of the run will not contribute to in-game time or the real time of the run.
 #entangled[Entangled Rule(s):]\
 #entangled[A.5.19 is referenced by: ] #entangledRules(("4.1.2", "CE19.3.4"))\
+A.5.20: <A.5.20> World load timing begins when any terrain or entity renders or upon first input, whichever comes first.
+- A.5.20.a: <A.5.20.a> Exception: If, before time has started, the game is paused or unfocused with a pause imminent, and first render happens while paused or unfocused, timing begins once the game is focused and unpaused.
+- #entangled[Entangled Rule(s):]\
+- #entangled[A.5.20.a is referenced by: ] #entangledRule("A.10.7")
+#entangled[Entangled Rule(s):]\
+#entangled[A.5.20 is referenced by: ] #entangledRule("A.10.7")
 
 == A.6: General Submission Rules
 A.6.1) The run's speedrun.com submission description must include the seed of the world.
@@ -547,7 +553,8 @@ A.10.5) <A.10.5> Macros may only be used to reset worlds if resets are triggered
 - A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed. This includes resetting based on time.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
-A.10.6) Any program or macro that screen reads or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).
+A.10.6) Any program or macro that screen reads or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).\
+A.10.7) <A.10.7> Macros may pause the game via Esc or F3+Esc before timer start in accordance with #entangledRule("A.5.2") or #entangledRule("A.5.20"). Macros may change FOV, render distance, simulation distance, entity distance, GUI scale, difficulty, and toggle GUI (F1) before timer start. In a world load run, macros may start the run by unpausing in accordance with #entangledRule("A.5.20.a"). Macros may toggle GUI immediately after unpausing.
 
 == A.11: External Resource Rules <A.11>
 #entangled[Entangled Rule(s):]\
