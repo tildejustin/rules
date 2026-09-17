@@ -261,6 +261,7 @@ A.3.11) <A.3.11> Peaceful difficulty must not be used within the run.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.11 is referenced by: ] #entangledRule("F.1.3.a")\
 #entangled[A.3.11 is nullified by: ] #entangledRule("8.1.3")\
+A.3.12) If the run is performed in hardcore mode, players must not enter spectator mode upon death.
 
 == A.4: Resource Packs
 A.4.1) The vanilla resource pack, programmer art (1.14+), and High Contrast (1.19.4+) packs may be used.\
