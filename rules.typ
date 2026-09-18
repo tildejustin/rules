@@ -557,6 +557,7 @@ A.10.5) <A.10.5> Macros may only be used to reset worlds if resets are triggered
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
 A.10.6) Any program or macro that screen reads or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).\
 A.10.7) <A.10.7> Macros may pause the game via Esc or F3+Esc before timer start in accordance with #entangledRule("A.5.2") or #entangledRule("A.5.20"). Macros may change FOV, render distance, simulation distance, entity distance, GUI scale, difficulty, and toggle GUI (F1) before timer start. In a world load run, macros may start the run by unpausing in accordance with #entangledRule("A.5.20.a"). Macros may toggle GUI immediately after unpausing.
+A.10.8) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.
 
 == A.11: External Resource Rules <A.11>
 #entangled[Entangled Rule(s):]\
@@ -892,7 +893,6 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 1.3.1) Runs under 20 minutes IGT before retime must submit world files.\
 1.3.2) Runs under 17 minutes IGT before retime must submit world files, logs, and gameplay audio.\
 1.3.3) Runs under 17 minutes IGT will be retimed as per top-level retiming rules.\
-1.3.4) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.
 
 == 1.4: Random Seed, 1.9-1.12
 1.4.1) Runs under 25 minutes IGT before retime must submit world files, logs, and gameplay audio.\
