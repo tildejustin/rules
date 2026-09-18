@@ -764,7 +764,7 @@ E.1.1) Glitched runs must perform at least one glitch during the run that is dis
 E.1.3) If you use Task Manager or another program which forcefully closes the game, you should include a video of this during the run.\
 E.1.4) External Arbitrary Code Execution (ACE) must not be used.
 - E.1.4.a) Example: Log4j exploit
-E.1.5) Glitched runs must be played entirely within one version.\
+E.1.5) Glitched runs must be played entirely within one version and instance.\
 E.1.6) Cross-world glitches, or glitches that require setup in another world, are legalized on a case-by-case basis.\
 Allowed cross-world glitches include:
 - E.1.6.a) <E.1.6.a> Slime spectating (#entangledRule("D.1.2.h"))
