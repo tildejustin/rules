@@ -1005,8 +1005,8 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 
 == 7.1: Any% Glitchless Demo Objective and Clarifications
 7.1.1) <7.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
-7.1.2) The run may be played on the Minecraft demo version.\
-7.1.3) If the run is not played on the Minecraft demo version, it must abide by the following rules:
+7.1.2) The run may be played on the Minecraft demo version or with the demo mode setting on in the Atum mod.\
+7.1.3) The run may be played without demo mode if Atum 2.0 is not available for that version and if it abides by the following rules:
 - 7.1.3.a) The run must not exceed 100 minutes and 25 seconds.
 - 7.1.3.b) The run must use the seed “North Carolina” (-343522682).
 - 7.1.3.c) <7.1.3.c> In addition to the world generation settings allowed in #entangledRule("A.1.3"), you must also enable the Bonus Chest.
