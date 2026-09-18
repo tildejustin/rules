@@ -829,7 +829,7 @@ F.2.4) <F.2.4> The category is timed by RTA, nullifying #entangledRule("A.5").
 
 == F.3: Video Rules
 F.3.1) Every player should record their perspective, and all of these perspectives should be submitted with the run.
-- F.3.1.a) Clarification: Unless otherwise specified, no other perspectives beyond those outlined in F.3.2-F.3.4 are necessary to be recorded.
+- F.3.1.a) Clarification: Unless otherwise specified (e.g. #underline(text(blue, link(label("5.2"), "5.2-5.6")))), no other perspectives beyond those outlined in F.3.2-F.3.4 are necessary to be recorded.
 F.3.2) The first player to join the server must be recording.\
 F.3.3) The person to complete the run must be recording.\
 F.3.4) <F.3.4> Any user with cheats enabled must be recording.\
@@ -977,7 +977,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 5.1: Any% Glitchless Co-op Objective
 5.1.1) <5.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).
 
-== 5.2: 2 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
+== 5.2: <5.2> 2 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
 5.2.1) For times which claim to be top fifteen, perspectives of both players must be recorded and submitted.
 
 == 5.3: 3 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
