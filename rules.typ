@@ -242,7 +242,6 @@ A.3.5) <A.3.5> You must not use console commands during the run.\
 #entangled[A.3.5 is nullified by: ] #entangledRules(("F.1.3.a", "F.1.3.b", "F.1.3.c", "CE20.1.2"))\
 A.3.6) If you play one instance of Minecraft and then switch to playing another, the initial instance's run is no longer verifiable. If this is done accidentally, and attempts are made to quickly exit the other instance and rejoin the initial instance, your run may still be verified (at the discretion of verifiers).
 - A.3.6.a) Clarification: While one instance of Minecraft is played, you may pause or close other instances.
-A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
 A.3.10) <A.3.10> World and log files produced by the vanilla game must not be read before or during the run.
 - A.3.10.a) Exception: Advancement or statistics files may be read by players and programs.
