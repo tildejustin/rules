@@ -533,6 +533,7 @@ A.9.3) If each instance must be recorded (i.e. they are not subject to the excep
 - A.9.3.a) The text on the percentage on the loading screen should be legible, along with the chunkmap which shows the world being generated.
 - A.9.3.b) To follow A.9.3.a, if the default video's percentage text is illegible, runners may zoom in on the chunk map and percentage text. The rest of the screen should also still be included.
 A.9.4) If SeedQueue is used, only one instance of Minecraft running SeedQueue may be open and only one instance of Minecraft may be used to reset concurrently.
+A.9.5) Warnings concerning legality within allowed mods must be followed.
 
 == A.10: Macro and Rebind Rules
 A.10.1) You may remap keys using external programs, but each game input may have only one key, and each key may cause only one game input.
