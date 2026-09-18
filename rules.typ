@@ -609,7 +609,7 @@ A.12.1) Illegitimate behaviour is defined as any intentional behaviour which att
 - A.12.1.e) Attempting to pass off another person's run as your own
 - A.12.1.f) Using illegal macros to emulate human movement
 A.12.2) Any illegitimate behaviour in a submitted run is grounds for rejection of the run.\
-A.12.3) If a player intentionally engages in illegitimate behaviour in a submitted run, all of their previous and future runs will be rejected.
+A.12.3) If a player engages in illegitimate behaviour in a submitted run, all of their previous and future runs will be rejected.
 - A.12.3.a) Exception: Co-op runs may remain verified if it can be determined (at the discretion of verifiers) that no cheating occurred.
 - A.12.3.b) Exception: A player may appeal their inability to have future runs verified by opening a thread in the official Discord server. They may be exempt from having future runs rejected at the discretion of moderators. If they are exempt, however, they may have additional proof burdens put onto any/all of their future runs.
 \
