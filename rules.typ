@@ -880,51 +880,51 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 1.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 == 1.2: Random Seed, 1.16+
-1.2.1) Runs under 13 minutes must submit world files, logs, and evidence of past attempts.\
-1.2.2) Runs under 10 minutes must submit world files, evidence of past attempts, 5 previous world files, logs, and gameplay audio.\
-1.2.3) Runs under 13 minutes will be retimed as per top-level retiming rules.\
+1.2.1) Runs under 13 minutes IGT before retime must submit world files, logs, and evidence of past attempts.\
+1.2.2) Runs under 10 minutes IGT before retime must submit world files, evidence of past attempts, 5 previous world files, logs, and gameplay audio.\
+1.2.3) Runs under 13 minutes IGT will be retimed as per top-level retiming rules.\
 1.2.4) <1.2.4> Runs which are contenders for the world record must follow immediate contact in line with #entangledRule("A.7.10").\
 #entangled[Entangled Rule(s):]\
 #entangled[1.2.4 is referenced by: ] #entangledRule("A.7.10.a")
 
 == 1.3: Random Seed, 1.13-1.15
-1.3.1) Runs under 20 minutes must submit world files.\
-1.3.2) Runs under 17 minutes must submit world files, logs, and gameplay audio.\
-1.3.3) Runs under 17 minutes will be retimed as per top-level retiming rules.\
+1.3.1) Runs under 20 minutes IGT before retime must submit world files.\
+1.3.2) Runs under 17 minutes IGT before retime must submit world files, logs, and gameplay audio.\
+1.3.3) Runs under 17 minutes IGT will be retimed as per top-level retiming rules.\
 1.3.4) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.
 
 == 1.4: Random Seed, 1.9-1.12
-1.4.1) Runs under 25 minutes must submit world files, logs, and gameplay audio.\
-1.4.2) Runs under 25 minutes will be retimed as per top-level retiming rules.\
-1.4.3) Runs under 30 minutes must submit world files.
+1.4.1) Runs under 25 minutes IGT before retime must submit world files, logs, and gameplay audio.\
+1.4.2) Runs under 25 minutes IGT will be retimed as per top-level retiming rules.\
+1.4.3) Runs under 30 minutes IGT before retime must submit world files.
 
 == 1.5: Random Seed, 1.8
-1.5.1) Runs under 25 minutes must submit world files.\
-1.5.2) Runs under 23 minutes must submit world files, logs, and gameplay audio.\
-1.5.3) Runs under 23 minutes will be retimed as per top-level retiming rules.
+1.5.1) Runs under 25 minutes IGT before retime must submit world files.\
+1.5.2) Runs under 23 minutes IGT before retime must submit world files, logs, and gameplay audio.\
+1.5.3) Runs under 23 minutes IGT will be retimed as per top-level retiming rules.
 
 == 1.6: Random Seed, Pre 1.8
-1.6.1) Runs under 25 minutes must submit world files.\
-1.6.2) Runs under 23 minutes must submit world files, logs, and gameplay audio.\
-1.6.3) Runs under 23 minutes will be retimed as per top-level retiming rules.
+1.6.1) Runs under 25 minutes IGT before retime must submit world files.\
+1.6.2) Runs under 23 minutes IGT before retime must submit world files, logs, and gameplay audio.\
+1.6.3) Runs under 23 minutes IGT will be retimed as per top-level retiming rules.
 
 == 1.7: Set Seed, 1.16-1.19
-1.7.1) Runs under 1:50 must submit world files, logs, and gameplay audio.
+1.7.1) Runs under 1:50 IGT must submit world files, logs, and gameplay audio.
 
 == 1.8: Set Seed, 1.13-1.15
-1.8.1) Runs under 2:45 must submit world files and logs.
+1.8.1) Runs under 2:45 IGT must submit world files and logs.
 
 == 1.9: Set Seed, 1.9-1.12
-1.9.1) Runs under 1:00 must submit world files and logs.
+1.9.1) Runs under 1:00 IGT must submit world files and logs.
 
 == 1.10: Set Seed, 1.8
-1.10.1) Runs under 3:30 must submit world files and logs.
+1.10.1) Runs under 3:30 IGT must submit world files and logs.
 
 == 1.11: Set Seed, Pre 1.8
-1.11.1) Runs under 4:15 must submit world files and logs.
+1.11.1) Runs under 4:15 IGT must submit world files and logs.
 
 == 1.12: Set Seed, 1.20+
-1.12.1) Runs under 1:35 must submit world files, logs, and gameplay audio.
+1.12.1) Runs under 1:35 IGT must submit world files, logs, and gameplay audio.
 
 = 2: Any%
 
@@ -936,14 +936,14 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 2.2: Any% Internal Random Seed Pre 1.9 <2.2>
 #entangled[Entangled Rule(s):]\
 #entangled[2.2 is referenced by: ] #entangledRule("2.1.2")\
-2.2.1) Runs under 12 minutes will be retimed as per top-level retiming rules.\
-2.2.2) Runs under 12 minutes must submit world files.
+2.2.1) Runs under 12 minutes IGT will be retimed as per top-level retiming rules.\
+2.2.2) Runs under 12 minutes IGT before retime must submit world files.
 
 == 2.3: Any% Internal Random Seed 1.9+ <2.3>
 #entangled[Entangled Rule(s):]\
 #entangled[2.3 is referenced by: ] #entangledRule("2.1.2")\
-2.3.1) Runs under 11 minutes will be retimed as per top-level retiming rules.\
-2.3.2) Runs under 11 minutes must submit world files.
+2.3.1) Runs under 11 minutes IGT will be retimed as per top-level retiming rules.\
+2.3.2) Runs under 11 minutes IGT before retime must submit world files.
 
 = 3: All Achievements
 
@@ -970,7 +970,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 4.1.4) All runs begin on world load.
 
 == 4.6: SS/SSG/RS/RSG, 1.16
-4.6.2) RSG runs under 3:00:00 must submit world files and logs.
+4.6.2) RSG runs under 3:00:00 IGT must submit world files and logs.
 
 = 5: Any% Glitchless Co-op
 
