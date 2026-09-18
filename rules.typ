@@ -502,6 +502,7 @@ Unintended advantageous behaviours include but are not limited to:
 - A.8.12.a) Measuring eyes on Soul Sand or Soul Soil with Soul Speed while FOV effects are reduced (i.e. when the FOV Effects slider is less than 100%)
 - A.8.12.b) Measuring eyes underwater while submerged FOV effects are reduced (i.e. when Control Submerged FOV is enabled and the FOV Effects slider is less than 100%)
 - A.8.12.c) Measuring eyes from inside a Nether portal while Distortion Effects are reduced (i.e. when the Distortion Effects slider is less than 100%)
+- A.8.12.f) Using an aim overlay calibrated to FOV while FOV effects are reduced (i.e. when the FOV Effects slider is less than 100%)
 Allowed behaviours include but are not limited to:
 - A.8.12.d) Generally using reduced FOV Effects while under the effects of Soul Speed, including during Zero or Ground Zero cycles.
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
