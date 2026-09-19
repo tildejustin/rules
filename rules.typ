@@ -7,7 +7,7 @@
 )
 
 #set text(
-  font: "Helvetica Neue",
+  font: "New Computer Modern",
   size: 11pt,
   weight: "regular",
 )
@@ -489,7 +489,17 @@ A.8.2) All versions of Fabric Loader are allowed.
 - A.8.2.c) Clarification: FabricAPI must not be used.
 A.8.3) All versions of Legacy Fabric Intermediaries are allowed.
 - A.8.3.a) Clarification: Legacy Fabric LWJGL must not be used, which is bundled in the first party Legacy Fabric MultiMC Instances.
-A.8.4) <A.8.4> All official LWJGL 3 releases up to v3.3.3 are allowed for Minecraft 1.13+. Official GLFW versions up to 3.3.8 are allowed. Woofdoggo's #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[Linux GLFW xinput patch] or #formatLink("https://github.com/tesselslate/waywall/blob/ad569de1ddae6b034c7095795a42f044746a55a7/contrib/glfw.patch")[GLFW patch for Waywall] may be used.\
+A.8.4) <A.8.4> LWJGL 3 and GLFW libraries are subject to the following conditions:
+- A.8.4.a) Mojang LWJGL versions from LWJGL 3.1.6 to 3.3.3 may be used in Minecraft 1.13 to 1.21.10 and Mojang LWJGL versions from LWJGL 3.3.6 to 3.4.3 may be used in Minecraft 1.21.11+.
+- A.8.4.b) GLFW builds from LWJGL 3.1.6 to 3.3.3 may be used in Minecraft 1.13 to 1.21.10 and GLFW builds from LWJGL 3.3.6 to 3.4.3 may be used in Minecraft 1.21.11+.
+- A.8.4.c) Custom GLFW builds may be used if they are tracked in #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. These builds must be auditable (e.g. compiled using a CI tool) and public released. If you would like to request legalization of a GLFW build, please open a thread or pull request.
+- A.8.4.d) Custom builds may be based on GLFW releases up to GLFW 3.5.1.
+- A.8.4.e) Custom builds may apply the following patches:
+  - A.8.4.e.i) Woofdoggo's GLFW xinput patch for #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[GLFW pre 3.4] and #formatLink("https://github.com/tesselslate/resetti/blob/8f10f46921d4741b9ffff89166dbdcbda3b5c4f3/contrib/glfw-xinput-3.4.patch")[GLFW 3.4+]
+  - A.8.4.e.ii) Woofdoggo's #formatLink("https://github.com/tesselslate/waywall/blob/ad569de1ddae6b034c7095795a42f044746a55a7/contrib/glfw.patch")[GLFW patch for Waywall]
+  - A.8.4.e.iii) #formatLink("https://github.com/BoyOrigin/glfw-wayland/tree/f62b4ae8f93149fd754cadecd51d8b1a07d20522")[BoyOrigin/glfw-wayland\@f62b4ae]
+  - A.8.4.e.iv) #formatLink("https://github.com/LWJGL-CI/glfw/commits/master")[LWJGL-CI commits]
+- A.8.4.f) Custom builds that include #formatLink("https://github.com/LWJGL-CI/glfw/commit/4ba21109cb43553f458dd4b31b02abf6e57d7949")[LWJGL IME support] may only be used in Minecraft 1.21.11+.
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.4 is referenced by: ] #entangledRule("A.8.17")\
 A.8.5) #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/blob/main/legal-builds.csv")[legal-builds.csv] in the legal-mods GitHub repository defines what builds of what Fabric mods are legal.
@@ -523,7 +533,7 @@ A.8.15) Certain approved tools are allowed to read Hermes world files during the
 A.8.16) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.\
 A.8.17) <A.8.17> Players shall not modify or otherwise interfere with the loading of game libraries that are provided by the launcher.
 - A.8.17.a) Exception: Removing optional natives libraries (i.e. natives that the game will launch without) is allowed.
-- A.8.17.b) Exception: LWJGL and GLFW may be modified in accordance with #entangledRule("A.8.4").
+- A.8.17.b) Exception: LWJGL 3 and GLFW may be modified in accordance with #entangledRule("A.8.4").
 A.8.18) No game debug flags may be used except ENABLED and PREFER_WAYLAND.
 A.8.19) Using Java agents is not allowed. Attaching a debugger to the JVM is not allowed.
 - A.8.19.a) Exception: #formatLink("https://codeberg.org/OrnitheMC/Flap", "Ornithe's Flap agent") is allowed.
