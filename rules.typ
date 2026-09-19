@@ -570,9 +570,7 @@ A.10.6) Any program or macro that screen reads or listens to game audio for an a
 A.10.7) <A.10.7> Macros may pause the game via Esc or F3+Esc before timer start in accordance with #entangledRule("A.5.2") or #entangledRule("A.5.20"). Macros may change FOV, render distance, simulation distance, entity distance, GUI scale, difficulty, and toggle GUI (F1) before timer start. In a world load run, macros may start the run by unpausing in accordance with #entangledRule("A.5.20.a"). Macros may toggle GUI immediately after unpausing.
 A.10.8) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.
 
-== A.11: External Resource Rules <A.11>
-#entangled[Entangled Rule(s):]\
-#entangled[A.11 is subject to an amendment by: ] #entangledRule("CE19.3.3")\
+== A.11: External Resource Rules
 A.11.1) The player and external programs may read from the statistics and advancement files.\
 A.11.2) Four-function calculators may be used during a run.\
 A.11.3) Any physical reference sheet may be used.
@@ -582,7 +580,7 @@ A.11.5) Any reference sheet not based on F3 information may be used.
 - A.11.5.a) Example: Stronghold ring locations
 - A.11.5.b) Example: Sheets/graphs of structure regions
 - A.11.5.c) Example: Villager trading tables
-A.11.6) The following constitute the whitelist of other legal sheets:
+A.11.6) <A.11.6> The following constitute the whitelist of other legal sheets:
 - A.11.6.a) #formatLink("https://github.com/jojoe77777/PerfectCD")[Four's Perfect Travel Spreadsheet]
 - A.11.6.b) #formatLink("https://docs.google.com/spreadsheets/d/1M777O3Xge701IT-zNTsuOAnrvXNy6ZCNWvO3IPiz8dc/edit#gid=1595121459")[Axis Calculated Sheet]
 - A.11.6.c) #formatLink("https://docs.google.com/spreadsheets/d/1Z-heJcVH1wIDc8scHZqsU3Q1F1mB1SqeDw_aT8q3VJ4/edit#gid=906444536")[Divine Fossil Sheet]
@@ -590,6 +588,8 @@ A.11.6) The following constitute the whitelist of other legal sheets:
 - A.11.6.e) #formatLink("https://drive.google.com/file/d/1NuDh59VJEaac4gZZYJvzb-UDXSa8rfnd/view?usp=sharing")[Tree Divine Sheet]
 - A.11.6.f) #formatLink("https://drive.google.com/file/d/1vfzH0dg35e-jSDptCBeiisWnSugeIOMF/view?usp=sharing")[Ravine/Air Cave/Nether Cave/Water Cave Divine Sheet]
 - A.11.6.g) #formatLink("https://docs.google.com/spreadsheets/d/1tTXczjzo4VCOxV2dpkj-SE5cELA9A2NyreRiQj6Bu8I/edit?gid=1217206013#gid=1217206013")[Nether Portal Orientation Divine Sheet]
+#entangled[Entangled Rule(s):]\
+#entangled[A.11.6 is referenced by: ] #entangledRule("9.2.1")\
 A.11.7) <A.11.7> The following constitute the whitelist of legal tools:
 - A.11.7.a) #formatLink("https://github.com/Ninjabrain1/Ninjabrain-Bot")[NinjabrainBot] [Ninjabrain1] (up to v1.5.2)
   - A.11.7.a.i) The NinjabrainBot API may be legally used by other tools for display of provided data, without any additional calculations or modifications that may provide any interpretation of the data which is not otherwise possible with an unmodified copy of NinjabrainBot.
@@ -599,7 +599,7 @@ A.11.7) <A.11.7> The following constitute the whitelist of legal tools:
 - A.11.7.f) #formatLink("https://ens-gijs.github.io/minecraft-stronghold-locator/")[Minecraft Stronghold Triangulator]
 - A.11.7.h) #formatLink("https://github.com/DuncanRuns/NinjaLink/releases/tag/v1.1.0")[Ninjalink] [DuncanRuns] (v1.1.0)
 #entangled[Entangled Rule(s):]\
-#entangled[A.11.7 is referenced by: ] #entangledRule("CE20.2.2")\
+#entangled[A.11.7 is referenced by: ] #entangledRules(("9.2.2", "CE19.3.3", "CE20.2.2"))\
 A.11.8) <A.11.8> You must not use any other reference sheets/external tools besides the ones listed above.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.11.8 is nullified by: ] #entangledRule("CE20.3.3")\
@@ -1048,6 +1048,12 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 9.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
 9.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
+== 9.2: Any% (Peaceful), RS, 1.9+
+9.2.1) <9.2.1> In addition to #entangledRule("A.11.6"), resources that consist of lists of chunks and seed-independent data about them may be used (e.g. chunk positions with the same hash or chunk positions by grass noise).
+9.2.2) <9.2.2> In addition to the external tools allowed by #entangledRule("A.11.7"), the following additional external tools may be used:
+   - 9.2.2.a) #formatLink("https://www.desmos.com/calculator/22jcwa7oju]")[RSP Stronghold Calculator]
+
+
 = 10: Combined Any% Glitchless
 
 == 10.1: Combined Any% Glitchless Clarifications
@@ -1331,7 +1337,7 @@ CE19.3.1) The run is considered complete once the conditions of Any% have been m
 - CE19.3.1.a) Clarification: If an end portal is unable to be lit, the run's objective cannot be fulfilled.
 CE19.3.2) You may enter the end and kill the ender dragon before all 128 end portals have been lit.
 - CE19.3.2.a) If you choose to kill the ender dragon before all 128 end portals have been lit, you still must kill the ender dragon after all 128 end portals have been lit, which ends the run.
-CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11"), the following additional external tools may be used: <CE19.3.3>
+CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11.6"), the following additional external tools may be used: <CE19.3.3>
 - CE19.3.3.a) #formatLink("https://github.com/TheTalkingMime/AllPortals")[All Portals [TheTalkingMime]]
 - CE19.3.3.b) #formatLink("https://github.com/shnenanigans/APgui")[APgui [shnenanigans]]
 - CE19.3.3.c) #formatLink("https://www.desmos.com/calculator/la7ezpyutu")[Desmos Stronghold Rings]
