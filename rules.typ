@@ -495,7 +495,7 @@ A.8.4) <A.8.4> LWJGL 3 and GLFW libraries are subject to the following condition
 - A.8.4.c) Custom GLFW builds may be used if they are tracked in #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. These builds must be auditable (e.g. compiled using a CI tool) and public released. If you would like to request legalization of a GLFW build, please open a thread or pull request.
 - A.8.4.d) Custom builds may be based on GLFW releases up to GLFW 3.5.1.
 - A.8.4.e) Custom builds may apply the following patches:
-  - A.8.4.e.i) Woofdoggo's GLFW xinput patch for #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[GLFW pre 3.4] and #formatLink("https://github.com/tesselslate/resetti/blob/8f10f46921d4741b9ffff89166dbdcbda3b5c4f3/contrib/glfw-xinput-3.4.patch")[GLFW 3.4+]
+  - A.8.4.e.i) Woofdoggo's GLFW xinput patch for #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[GLFW pre 3.4] and #formatLink("https://github.com/tesselslate/resetti/blob/4aa463f58fbddd1fbdee16796600cabb3e9c86b4/contrib/glfw-xinput-3.4.patch")[GLFW 3.4+]
   - A.8.4.e.ii) Woofdoggo's #formatLink("https://github.com/tesselslate/waywall/blob/ad569de1ddae6b034c7095795a42f044746a55a7/contrib/glfw.patch")[GLFW patch for Waywall]
   - A.8.4.e.iii) #formatLink("https://github.com/BoyOrigin/glfw-wayland/tree/f62b4ae8f93149fd754cadecd51d8b1a07d20522")[BoyOrigin/glfw-wayland\@f62b4ae]
   - A.8.4.e.iv) #formatLink("https://github.com/LWJGL-CI/glfw/commits/master")[LWJGL-CI commits]
