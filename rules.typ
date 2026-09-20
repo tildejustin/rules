@@ -7,7 +7,7 @@
 )
 
 #set text(
-  font: "New Computer Modern",
+  font: "Helvetica Neue",
   size: 11pt,
   weight: "regular",
 )
