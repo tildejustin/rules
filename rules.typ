@@ -537,6 +537,7 @@ A.8.17) <A.8.17> Players shall not modify or otherwise interfere with the loadin
 A.8.18) No game debug flags may be used except ENABLED and PREFER_WAYLAND.
 A.8.19) Using Java agents is not allowed. Attaching a debugger to the JVM is not allowed.
 - A.8.19.a) Exception: #formatLink("https://codeberg.org/OrnitheMC/Flap")[Ornithe's Flap agent] is allowed.
+
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
 A.9.2) If multiple instances of Minecraft are being used, each instance must be recorded, either in the main recording or in a separate recording submitted as additional proof.
