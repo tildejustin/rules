@@ -557,6 +557,7 @@ A.10.2) If keys are rebound, they must be to buttons.
 A.10.3) You must not rebind the "Attack/Destroy" or "Use Item/Place Block" functions to a keyboard button to abuse repeated inputs.\
 A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 - A.10.4.a) Exception: Macros may resize the game window to an unlimited number of resolutions if the game window stays within monitor bounds.
+    - A.10.4.a.i) Clarification: Window positions that are one pixel outside monitor bounds on any or all axes, which is necessary on some Linux setups to allow further resizing and is how Minecraft itself behaves in non-exclusive fullscreen, are not considered to be out of monitor bounds.
 - A.10.4.b) Exception: Macros may resize the game window to one resolution outside the monitor bounds, up to a maximum of 16384 pixels in width or height.
 - A.10.4.c) Clarification: There are no restrictions on when resize macros may be used during the run.
 - A.10.4.d) Exception: Toggle sprint macros are allowed in all versions.
