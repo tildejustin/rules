@@ -534,7 +534,7 @@ A.8.16) DLL injection is allowed, but injection of DLLs that are not explicitly 
 A.8.17) <A.8.17> Players shall not modify or otherwise interfere with the loading of game libraries that are provided by the launcher.
 - A.8.17.a) Exception: Removing optional natives libraries (i.e. natives that the game will launch without) is allowed.
 - A.8.17.b) Exception: LWJGL 3 and GLFW may be modified in accordance with #entangledRule("A.8.4").
-A.8.18) No game debug flags may be used except ENABLED and PREFER_WAYLAND.
+A.8.18) No #formatLink("https://minecraft.wiki/w/Debug_property")[game debug flags] may be used except ENABLED and PREFER_WAYLAND.
 A.8.19) Using Java agents is not allowed. Attaching a debugger to the JVM is not allowed.
 - A.8.19.a) Exception: #formatLink("https://codeberg.org/OrnitheMC/Flap")[Ornithe's Flap agent] is allowed.
 
