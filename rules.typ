@@ -322,7 +322,7 @@ A.5.4) Unless otherwise specified, pauses do not contribute towards in-game time
 - A.5.4.e) The demo GUI opening
 - A.5.4.f) The advancements menu opening
 - A.5.4.g) The confirmation screen upon clicking [Intentional Game Design]
-- A.5.4.h) The "Twitch Broadcasting Unavailable" Menu
+- A.5.4.h) The “Twitch Broadcasting Unavailable” Menu
 - A.5.4.i) Clarification: Opening the Statistics or Achievements / Advancements menu may cause the game to temporarily advance in versions between 1.7.2 and 1.21.5. This time will be added towards the final time.
 - A.5.4.j) The Debug Options menu
 A.5.5) Loading times (the Loading Terrain screen and Joining World screen) do not contribute towards in-game time.\
@@ -421,7 +421,7 @@ A.7.4) <A.7.4> Files submitted must not be modified or altered.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.7.4 is referenced by: ] #entangledRule("A.12.1.d")\
 A.7.5) World files refer to the full folder with the world's name as the folder's name in the .minecraft/saves folder.\
-A.7.6) <A.7.6> Logs refer to the .log/.gz file in the .minecraft/logs folder. These files will be named according to the dates on which they were generated. Submit the run with the log(s) which contains information about the run in question. If you are unsure which session has your run, submit logs for that entire day and also the log with the name "latest.log".
+A.7.6) <A.7.6> Logs refer to the .log/.gz file in the .minecraft/logs folder. These files will be named according to the dates on which they were generated. Submit the run with the log(s) which contains information about the run in question. If you are unsure which session has your run, submit logs for that entire day and also the log with the name “latest.log”.
 - A.7.6.a) Guidance: At midnight (local computer time), a new log file is created by the game. If you are in the world when this occurs, please be sure to include the complete set of logs for the lifetime of the instance, from game launch to world close.
 #entangled[Entangled Rule(s):]\
 #entangled[A.7.6 is referenced by: ] #entangledRule("A.2.11.b")\
@@ -524,7 +524,7 @@ A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and exc
 - #formatNote[A.8.14.a.note) Examples of permitted uses of state include:\
 - Checking for both the paused and gamescreenopen states in wpstateout.txt or checking for a non-null screen in state.json as a replacement for checking if the cursor is grabbed.
 ]
-- A.8.14.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
+- A.8.14.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as “Safe Reset” and “Reset Before 20 Seconds.”
 #formatNote[
 A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
 ]\
@@ -554,7 +554,7 @@ A.10.1) You may remap keys using external programs, but each game input may have
 A.10.2) If keys are rebound, they must be to buttons.
 - This excludes but is not limited to:
 - A.10.2.a) Remapping to a scroll-wheel
-A.10.3) You must not rebind the "Attack/Destroy" or "Use Item/Place Block" functions to a keyboard button to abuse repeated inputs.\
+A.10.3) You must not rebind the “Attack/Destroy” or “Use Item/Place Block” functions to a keyboard button to abuse repeated inputs.\
 A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 - A.10.4.a) Exception: Macros may resize the game window to an unlimited number of resolutions if the game window stays within monitor bounds.
     - A.10.4.a.i) Clarification: Window positions that are one pixel outside monitor bounds on any or all axes, which is necessary on some Linux setups to allow further resizing and is how Minecraft itself behaves in non-exclusive fullscreen, are not considered to be out of monitor bounds.
