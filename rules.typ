@@ -878,7 +878,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 = 1: Any% Glitchless
 
 == 1.1: Any% Glitchless Objective and Clarifications
-1.1.1) <1.1.1> The run is considered completed once the end poem sequence of the game begins or the player enters the exit end portal.\
+1.1.1) <1.1.1> The run is considered completed once the end poem of the game begins or the player enters the exit end portal.\
 #entangled[Entangled Rule(s):]\
 #entangled[1.1.1 is referenced by: ] #entangledRules((
   "2.1.1",
