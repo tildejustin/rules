@@ -350,7 +350,6 @@ A.5.15) If a run does not use SpeedrunIGT but does display a timer that uses the
 A.5.16) If a run displays the statistics menu directly or shortly after the run and is not manually retimed, the run's in-game time may be extrapolated through the value given in the Time Played statistic.\
 A.5.17) If a run does not use SpeedRunIGT, is not manually retimed, does not show an in-game timer that uses playOneMinute, and does not show the statistics menu, the real time of the run will be used as the run's in-game time.\
 A.5.18) <A.5.18> If a run ends by obtaining item(s), timing ends once the first item from the following list has been met:
-- A.5.18.a) The item is taken from a non-reversible GUI (e.g. furnace or crafting table)
 - A.5.18.b) The item appears (if manually retimed) or enters (if timed via speedrunIGT) in an inventory/hotbar slot
 - A.5.18.d) The frame before an item unlocks a corresponding recipe notification (if manually retimed)
 - A.5.18.e) The first frame an item temporarily disappears (if manually retimed)
