@@ -670,8 +670,7 @@ D.1.1) Only minor glitches may be used during glitchless runs.
 - D.1.1.ae) Sprint desync, including entity punch (#formatLink("https://bugs.mojang.com/browse/MC-69459")[MC-69459], #formatLink("https://youtu.be/NiOMVtrkV-M")[Example]) and backwards sprint state (#formatLink("https://docs.google.com/document/d/1LERIwzgARnEHtpQbaqXcUmFm40hVQukpcbKkavfwTW4")[Write-up], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-30403")[MC-30403], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-257082")[MC-257082], #formatLink("https://youtu.be/V3J5gT6XaQU")[Example], #formatLink("https://youtu.be/KuKgkoaw6W8")[Example \#2])
 - D.1.1.af) Receiving looting benefits while killing mobs with a bow/TNT (#formatLink("https://bugs.mojang.com/browse/MC-3304")[MC-3304])
 - D.1.1.ag) <D.1.1.ag> Eat skip (#formatLink("https://youtu.be/DCz1KAtGsZs")[Example])
-- #entangled[Entangled Rule(s):]
-- #entangled[D.1.1.ag is referenced by: ] #entangledRule("D.1.2.aj")
+    - D.1.1.ag.i) Clarification: This same glitch is banned for non-consumable items as shield and bow desync (#entangledRule("D.1.1.ag")).
 - D.1.1.ah) Boat break on certain heights (#formatLink("https://bugs.mojang.com/browse/MC-119369")[MC-119369])
 - D.1.1.ai) Entering and breaking a boat simultaneously (#formatLink("https://youtu.be/RtDjfQqZB0Y")[Example])
 - D.1.1.aj) Entering and breaking a nether portal simultaneously (#formatLink("https://youtu.be/FKT3cwU432k")[Example])
