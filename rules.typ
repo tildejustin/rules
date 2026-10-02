@@ -527,8 +527,10 @@ A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and exc
 #formatNote[
 A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
 ]\
-A.8.15) Certain approved tools are allowed to read Hermes world files during the run. These are:
-- A.8.15.a) PaceMan Tracker
+A.8.15) Programs that have been allowed to use limited Hermes world data during the run include:
+- A.8.15.a) #formatLink("https://github.com/PaceMan-MCSR/PaceMan-Tracker", "PaceMan Tracker")
+- A.8.15.b) #formatLink("https://github.com/LNXSeus/Advancely", "Advancely")
+- A.8.15.c) #formatLink("https://github.com/DuncanRuns/AATourneyTracker", "AATourneyTracker")
 A.8.16) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.\
 A.8.17) <A.8.17> Players shall not modify or otherwise interfere with the loading of game libraries that are provided by the launcher.
 - A.8.17.a) Exception: Removing optional natives libraries (i.e. natives that the game will launch without) is allowed.
