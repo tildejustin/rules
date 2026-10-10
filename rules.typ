@@ -1056,7 +1056,6 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 9.2.2) <9.2.2> In addition to the external tools allowed by #entangledRule("A.11.7"), the following additional external tools may be used:
    - 9.2.2.a) #formatLink("https://www.desmos.com/calculator/22jcwa7oju]")[RSP Stronghold Calculator]
 
-
 = 10: Combined Any% Glitchless
 
 == 10.1: Combined Any% Glitchless Clarifications
